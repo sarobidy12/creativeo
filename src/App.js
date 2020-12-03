@@ -6,6 +6,8 @@ import axios from 'axios';
 import localhost from './_config';
 import './App.css';
 
+import MessengerCustomerChat from 'react-messenger-customer-chat';
+
 import Acceuille from './component/acceuille/index';
 import Bienvenu from './component/page/bienvenu';
 import Apropos from './component/page/apropos';
@@ -133,6 +135,10 @@ function App() {
                       <Route path="/formation-et-ateliers" component={Formation}  />
                       <Route path="/conference" component={Conference}  />
                       <Route path="/webinar" component={Webinar}  />
+                      <MessengerCustomerChat
+                        pageId = "101168218368541"
+                        appId = "3321703071194475"
+                      />
                   </BrowserRouter>
 
         }else if(loader === 2){
