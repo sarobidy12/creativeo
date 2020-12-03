@@ -1,54 +1,10 @@
-import React , {useEffect, useState} from 'react';
-import axios from 'axios'; 
-import localhost from '../../_config';
+import React  from 'react';
 import nl2br from 'react-newline-to-break';
 import {Link} from 'react-router-dom';
 import MetaTags from 'react-meta-tags';
 
 const Acceuille=()=>{
 
-    const [stop1,setStop1]= useState(0);
-    const [stop2,setStop2]= useState(0);
-    const [stop3,setStop3]= useState(0);
-
-    const [article,setArticle]=useState({});
-    const [citaction,SetCitation]=useState({});
-
-    useEffect(()=>{
-        
-    })
-
-    const getArticle = function getArticle(){
-
-        let formData= new FormData();
-        formData.append("text",'text');
-        const url= localhost+'getArticle.php'; 
-        axios.post(url,formData)
-        .then((res)=>{
-            if(stop1 === 0){
-                setArticle(res.data);
-                setStop1(1);
-            }
-        });
-    }
-
-    const getCitationHome = function getCitationHome(){
-
-        let formData= new FormData();
-        formData.append("text",'text');
-        const url= localhost+'getArticle.php';
-        axios.post(url,formData)
-        .then((res)=>{
-
-            if(stop2 === 0){
-                SetCitation(res.data);
-                setStop2(1)
-            }
-            
-        });
-
-    }
-   
     return (
         <div>
 

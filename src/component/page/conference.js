@@ -1,13 +1,11 @@
-import React , {useEffect, useState} from 'react';
+import React , {useEffect} from 'react';
 import nl2br from 'react-newline-to-break';
-import {Link} from 'react-router-dom';
 import MetaTags from 'react-meta-tags';
-import AnimateHeight from 'react-animate-height';
 
 const Conference=()=>{
  
     useEffect(()=>{ 
-        
+
         window.scrollTo({
             top:0,
             behavior:'smooth'
@@ -19,6 +17,7 @@ const Conference=()=>{
         //   ], { 
         //     duration: 1000,
         //   });
+
     })
    
     return (
