@@ -33,7 +33,7 @@ const Conference=()=>{
             <div className='hero_home'>
 
                 <div className='hero_gb float-left'>
-                    <img src='/images/formation_atelier.jpeg' data-aos='fade-right'/>
+                    <img src='/images/formation_atelier.jpeg' data-aos='fade-right'  alt="conferense view"/>
                 </div>
 
                 <div className='hero_content float-left '>

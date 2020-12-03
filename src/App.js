@@ -138,7 +138,7 @@ function App() {
         }else if(loader === 2){
 
           return <div className='gif_home'>
-                    <img src='/images/error.gif'/>
+                    <img src='/images/error.gif' alt='error'/>
                     <h1>
                         Une erreur est suvernu
                     </h1>
@@ -154,10 +154,10 @@ function App() {
                   <br/>
                   <br/>
                   <br/>
-                  <img src='/images/logo.png'/>
+                  <img src='/images/logo.png ' alt='logo'/>
                   <br/>
                   <br/>
-                  <img src='/images/loader_io.gif' style={{
+                  <img src='/images/loader_io.gif'  alt='loader_io'style={{
                       width:'7.5%'
                   }}/>
                 </div>

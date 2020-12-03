@@ -24,7 +24,7 @@ const Bienvenu=()=>{
             </MetaTags>
     
                 <div id='hero_bg'>
-                    <img src='/images/contenu/home_hero.jpeg' data-aos='fade-up'/>
+                    <img src='/images/contenu/home_hero.jpeg'  alt="home_hero view" data-aos='fade-up'/>
                 </div>
 
                 <div className='welcome_content'>

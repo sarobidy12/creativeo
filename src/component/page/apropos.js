@@ -30,7 +30,7 @@ const Bienvenu=()=>{
             </MetaTags>
     
                 <div id='hero_bg'>
-                    <img src='/images/nathalie.jpg' data-aos='zoom-in'/>
+                    <img src='/images/nathalie.jpg' data-aos='zoom-in'  alt="nathalie view"/>
                 </div>
 
                 <div className='welcome_content'>
