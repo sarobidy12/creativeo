@@ -1,0 +1,211 @@
+.gif_home{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.gif_home img{
+    width: 50%;
+    position: relative;
+}
+
+.gif_home button{
+    padding: 2vh 5vh;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 5vh;
+    cursor: pointer;
+    color: white;
+    
+}
+.hero_home{
+    width: 100%;
+    height: 80vh;
+    display: block;
+}
+
+.hero_gb{
+    width: 30%;
+    background-color: dodgerblue;
+    height: 100%;
+}
+
+.hero_gb img{
+    width: 80%;
+    position: relative;
+    top:10vh;
+    left: 15vh;
+    height: 60%;
+}
+
+.hero_content{
+    width: 50%;
+    margin: 0 10vh;
+    padding: 2vh;
+    position: relative;
+    top:10vh;
+}
+
+.Playball{
+    font-family: 'Playball', cursive;
+}
+
+.Fahkwang{
+    font-family: 'Fahkwang', sans-serif;
+}
+ 
+.hero_content h1{ 
+    font-size: 8vh;
+    color: black;
+    margin: 2vh 0;
+}
+
+.slogant{
+    width: 80%;
+    text-align: center;
+    margin: 8vh auto;
+    color: black;
+}
+
+.activite{
+    width: 100%;
+    height: 80vh;
+}
+
+.bg_right{
+    position: absolute;
+    right: 0;
+    float: right;
+    width: 30%;
+    background-color: dodgerblue;
+    height: 80vh;
+    z-index: 0;
+}
+
+.active_content{
+    position: absolute;
+    z-index: 2;
+    z-index: 10;
+    width: 80%;
+    margin: 5vh auto;
+    left: 10%;
+}
+
+.active_link{
+    width: 30%;
+    z-index: 5;
+    margin: 1vh 2vh;
+    float: left;
+}
+
+.active_link:nth-of-type(1) { 
+    position: relative;
+    top: 0;
+}
+
+.active_link:nth-of-type(2) { 
+    position: relative;
+    top: 7vh;
+}
+
+.active_link:nth-of-type(3) { 
+    position: relative;
+    top: 14vh;
+}
+
+
+.active_link img{
+    width: 100%;
+    height: 35vh;
+    transition: 600ms;
+}
+
+.active_link img:hover{
+    transform: scale(0.95);
+}
+
+.active_link h1{
+    margin: 2vh 0;
+    font-size: 3vh; 
+    color: black;
+    text-align: center;
+}
+
+.bar_activite{
+    width: 0.75vh;
+    height: 10vh;
+    background-color: black;
+    margin: -2vh auto;
+    position: relative;
+    z-index: 10;
+}
+
+.apropos{
+    position: relative;
+    width: 80%;
+    margin: 5vh auto;
+    height: 40vh;
+}
+
+.float-left{
+    float: left;
+}
+
+.img_apropos{
+    text-align: center;
+    width: 30%;
+}
+
+.img_apropos img{
+    width: 25vh;
+    height: 25vh;
+    border-radius: 25vh;
+    top: 5vh;
+    position: relative;
+}
+
+.apropos_content{
+    width: 60%;
+}
+
+#hero_bg{
+    width: 100%;
+    height: 30vh;
+    background-color: dodgerblue;
+    transition: 600ms;
+    text-align: center;
+}
+
+#hero_bg img{
+    width: 50vh;
+    height: 30vh;
+    position: relative;
+    top: 10vh;
+}
+
+.welcome_content{
+    margin: 20vh auto ;
+    width: 70%;
+    text-align: center;
+}
+.welcome_content h1{
+    color: black;
+    font-size: 7vh;
+    margin: 0;
+}
+
+.bg_contenu{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.bg_contenu p{
+    color: black;
+    font-size: 3vh;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
